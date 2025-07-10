@@ -35,7 +35,7 @@ useEffect( () => {
                         </p>
                         <h1  className="DataTitle">Weight:</h1>
                         <p className="DataText">{pokeData.weight} KG (?)</p>
-                        <h1  className="DataTitle">Pokedex ID:</h1>
+                        <h1  className="DataTitle">Pokedex No. :</h1>
                         <p className="DataText">{pokeData.id}</p>
                     </div>
                 </div>
