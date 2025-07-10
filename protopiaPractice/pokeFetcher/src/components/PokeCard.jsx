@@ -30,7 +30,10 @@ useEffect( () => {
                         <h1  className="DataTitle">type:</h1>
                         <p className="DataText">
                             {pokeData.types.map(type =>
-                            <span key={type.type.name} className="DataTypeTag">{type.type.name}</span>
+                            <>
+                                <span key={type.type.name} className="DataTypeTag">{type.type.name}</span>
+                                <br></br>
+                            </>
                             )}
                         </p>
                         <h1  className="DataTitle">Weight:</h1>
