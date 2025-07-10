@@ -16,14 +16,14 @@
 }
 
 .pokeImage {
-    width: 50%;
+    width: 40%;
     
 }
 
 .image {
     image-rendering: pixelated;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
 }
 
 .pokeInfo {
